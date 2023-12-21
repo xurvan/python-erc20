@@ -9,6 +9,7 @@ dependencies = []
 requires-python = ">=3.11"
 readme = "README.md"
 license = { file = "LICENSE" }
+keywords = ["blockchain", "web3", "ethereum", "erc20", "cryptocurrency"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
