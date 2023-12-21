@@ -11,5 +11,5 @@ Key Features:
 ## Get Started
 Install the library:
 ```shell
-pip install erc20
+pip install erc-20
 ```
