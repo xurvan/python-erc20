@@ -1,6 +1,6 @@
 [project]
 name = "erc-20"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Effortlessly interact with ERC-20 contracts in Python"
 authors = [
     { name = "Xurvan", email = "xurvan@tutanota.com" },
@@ -8,8 +8,12 @@ authors = [
 dependencies = []
 requires-python = ">=3.11"
 readme = "README.md"
-license = { text = "Apache-2.0" }
+license = { file = "LICENSE" }
 
 [build-system]
 requires = ["flit_core>=3.2,<4"]
 build-backend = "flit_core.buildapi"
+
+[tool.pdm.version]
+source = "file"
+path = "erc_20/__init__.py"
