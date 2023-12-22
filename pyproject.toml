@@ -5,7 +5,9 @@ description = "Effortlessly interact with ERC-20 contracts in Python"
 authors = [
     { name = "Xurvan", email = "xurvan@tutanota.com" },
 ]
-dependencies = []
+dependencies = [
+    "web3>=6.13.0",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = { file = "LICENSE" }
